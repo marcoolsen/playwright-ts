@@ -1,6 +1,5 @@
 node_modules/
 /test-results/
-/playwright-report
 /playwright/.cache/
 .env
-playwright-report/index.html
+/playwright-report/
