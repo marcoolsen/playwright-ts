@@ -1,0 +1,21 @@
+{
+    "name": "playwright-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test-ui": "npx playwright test tests/frontend.spec.ts",
+        "test-api": "npx playwright test tests/api.spec.ts",
+        "test-debug": "npx playwright test --ui",
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.37.1",
+        "dotenv": "^16.1.4",
+        "prettier": "2.8.8",
+        "typescript": "^5.1.3"
+    }
+}
